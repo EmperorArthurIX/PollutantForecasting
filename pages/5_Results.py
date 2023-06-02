@@ -13,4 +13,6 @@ st.title("Results")
 with open("./static/textContent/Results.md") as f:
     st.write(*f.readlines())
 
-#### Visualisations
+#### User Input Section
+
+st.subheader("Predicting PM10 Values")

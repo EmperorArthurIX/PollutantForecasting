@@ -24,7 +24,7 @@ Furthermore, this paper addresses the key challenges associated with air polluti
 |   3   |DBNSE framework|Helpful in finding hidden dependencies between pollutants|The presence of other greenhouse gases are not considered | `NO2 and PM2.5`|
 |   4   | State of science emission inventories and atmospheric chemical trnasport models | Quantificaiton of the atmospheric composition owing to household sources. |Spatial and Temporal dependency of elements not considered| `PM2.5 and O3`|
 
-*Table 1: Related Study in terms of India*
+<figcaption style="text-align: center">Table 1: Related Study in terms of India</figcaption>
 
 
 ---

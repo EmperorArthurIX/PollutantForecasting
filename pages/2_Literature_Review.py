@@ -11,4 +11,4 @@ st.title("Literature Review")
 
 #### Main Body
 with open("./static/textContent/LiteratureReview.md") as f:
-    st.write(*f.readlines())
+    st.markdown(f.read(), unsafe_allow_html=True)
