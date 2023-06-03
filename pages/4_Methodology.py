@@ -1,7 +1,7 @@
 import streamlit as st
 
 #### Page Configuration
-st.set_page_config(page_title="Home",
+st.set_page_config(page_title="Methodology",
                    layout="wide")
 with open("./static/css/styles.css") as f:
     st.markdown("<style>{}</style>".format(f.read()),unsafe_allow_html=True)
