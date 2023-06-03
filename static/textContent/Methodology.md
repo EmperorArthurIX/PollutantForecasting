@@ -44,7 +44,7 @@ Through this meticulous feature selection methodology, we carefully curated the 
 
 #### 4. Model Selection and Training
 
-In our methodology, after performing feature extraction, we conducted model selection by evaluating various models on our dataset. Based on the results, we identified the `Extra Tree Regressor` as the most suitable model to use. This selection was motivated by the fact that no previous researcher had applied this specific model to the task at hand, highlighting its potential for our analysis. Given that we had already executed `LSTM`, `BiLSTM`, and `ICNN` models, we believed that incorporating the Extra Tree Regressor would provide a valuable addition to our research.
+In our methodology, after performing feature extraction, we conducted model selection by evaluating various models on our dataset. Based on the results, we identified the `Extra Tree Regressor` as the most suitable model to use. This selection was motivated by the fact that only handful of previous researchers had applied this specific model to the task at hand, highlighting its potential for our analysis. Given that we had already executed `LSTM`, `BiLSTM`, and `ICNN` models, we believed that incorporating the Extra Tree Regressor would provide a valuable addition to our research.
 
 To implement the Extra Tree Regressor, we utilized the `sklearn.ensemble` module, leveraging its robust functionality. In order to optimize the model's performance, we employed `pruning techniques` to fine-tune the hyperparameters. Through this rigorous process, we ensured that our Extra Tree Regressor model was finely optimized and ready for deployment.
 
