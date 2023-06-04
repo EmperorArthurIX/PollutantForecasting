@@ -1,5 +1,0 @@
----
-
-#### Proposed System Goes Here
-
----

@@ -10,5 +10,5 @@ with open("./static/css/styles.css") as f:
 st.title("Proposed System")
 
 #### Main Body
-with open("./static/textContent/ProposedSystem.md") as f:
+with open("./static/textContent/ModelSelection.md") as f:
     st.markdown(f.read(), unsafe_allow_html=True)
