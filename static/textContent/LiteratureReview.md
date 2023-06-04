@@ -49,9 +49,10 @@ helps the government body to signal its citizens as well as cut or regularize th
 
 ---
 
-#### 4. Impact of Maternal Air Pollution Exposure on Children’s Lung Health: An Indian Perspective
+#### 4. Impact of Maternal Air Pollution Exposure on Children's Lung Health: An Indian Perspective
 
 The given research paper discusses the detrimental impact of air pollution on human health and its prevalence in India. Air pollution has emerged as a major global concern, causing morbidity, mortality, and economic losses. It is a significant threat to respiratory health, leading to conditions like `Chronic Obstructive Pulmonary Disease (COPD)`, asthma, interstitial lung diseases, and lung cancer. Fine particulate matter (`PM2.5`) and coarse particulate matter (`PM10`) are key indicators of air pollution severity, originating from various sources such as vehicles, industries, and households. The World Health Organization (WHO) estimates that air pollution contributes to millions of premature deaths annually, with India having the highest number of air pollution-related deaths. Exposure to air pollution during pregnancy is associated with adverse birth complications and increased risks for neurodevelopmental disorders and childhood asthma. Particulate matter consists of various substances, both organic and inorganic, with different sources, including indoor and outdoor emissions. India has high levels of air pollution, with many cities exceeding WHO guidelines. The effects of air pollutants in India include reduced life expectancy and significant health burdens, affecting not only the lungs but also other organs. Children, with their higher vulnerability and exposure, face long-term health consequences. The review aims to explore the health implications of maternal exposure to air pollution on children's health in India, highlighting cellular mechanisms and potential interventions.
+
 
 | S. No. | Author | Study Design | Sample Size | Exposure | Parameter Studied | Comments and Assosiation |
 |--------|--------|--------------|-------------|----------|-------------------|--------------------------|
@@ -59,7 +60,8 @@ The given research paper discusses the detrimental impact of air pollution on hu
 |2|Awasthi et al., 2010|Cohort|23 children(10 to 13 years of age)|Agriculture crop residue burning|Pulmonary function|Decrease in pulmonary function with an increase in air pollutant levels due to ACRB|
 |3|Singh et al.,2015|Cross-sectional, multicenter|44,928 (6 to 7 year age group); 48,088 (13 to 14 year age group)|Traffic pollution maternal and paternal smoking|Asthma|Traffic pollution and maternal and paternal smoking is associated with increased prevalence of asthma|
 
-*Table-2: List of studies on air pollution that have been carried out in an Indian population.*
+<figcaption style ="text-align: center"> Table-2: List of studies on air pollution that have been carried out in an Indian population. </figcaption>
+
 
 Air pollution has become a growing concern in recent years in India and globally, causing an enormous burden to society as well as loss of life. Air pollutants, particularly `PM2.5`, penetrate deep into the lungs and cause pathological changes which lead to impaired pulmonary function. Epidemiological studies demonstrate that exposure to PM induces oxidative stress that leads to
 serious health effects. Similar mechanisms are involved in maternal air-pollution-exposure-induced health effects on offspring that are a result of increased oxidative stress resulting in damage to proteins and biomolecules and causing placental inflammation, induction of ER stress–autophagy, and mitochondrial dysfunction. Therapeutic strategies targeting air-pollution-induced oxidative stress and related signaling should be considered to enhance endogenous antioxidant defense mechanisms in the cell. On the other hand, use of novel autophagy modulators that can also block ER stress could be of great value for future research into preventing the development of pollutant-induced airway disease. Collectively, air-pollution-induced adverse health outcomes can be prevented by adopting a comprehensive global approach that works locally to eliminate or reduce the burden of PM both indoors and outdoors.
