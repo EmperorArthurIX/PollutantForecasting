@@ -1,5 +1,16 @@
-code
-{
-    background: none;
-    color: hotpink;
+code {
+  background: none;
+  color: hotpink;
+}
+
+footer {
+  /* visibility: hidden; */
+}
+footer:after {
+  content: "By Ishaan Sunita Pandita, Gaurav Bhanot, A. V. Shanmukh";
+  visibility: visible;
+  display: block;
+  position: relative;
+  /* padding: 5px; */
+  /* top: 2px; */
 }
