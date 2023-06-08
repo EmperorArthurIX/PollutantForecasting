@@ -95,7 +95,7 @@ with st.container():
     final_df = pd.DataFrame(
         {"Original PM10": edit_data[edit_data.columns[-1]].values, "Predictions": preds})
     cols[0].write("Side-by-side comparison")
-    cols[0].dataframe(final_df,width=400)
+    cols[0].dataframe(final_df, width=400)
     cols[1].write("Differences in Predictions and Original")
     cols[1].write(edit_data[edit_data.columns[-1]]-preds)
 
