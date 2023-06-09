@@ -88,7 +88,7 @@ They have attempted to convert the air quality monitoring station data into mult
     <!-- Add more rows as needed -->
   </tbody>
 </table>
-<figcaption style="text-align: center">Table 2: Enter Caption here</figcaption>
+<figcaption style="text-align: center">Table 2: Observaions from mentioned paper</figcaption>
 
 ---
 #### 3. Air Pollution Prediction by Deep Learning Model(`BiLSTM`)
@@ -112,8 +112,8 @@ The given research paper discusses the detrimental impact of air pollution on hu
 |   1    |Padhy et al.,2009|Case-control|Control, Biomass user|Biomass smoke|Respiratory symptoms Oxidative stress Hematological changes|Exposure to biomass smoke significantly associated with respiratory diseases, oxidative stress, and hematological changes|
 |2|Awasthi et al., 2010|Cohort|23 children(10 to 13 years of age)|Agriculture crop residue burning|Pulmonary function|Decrease in pulmonary function with an increase in air pollutant levels due to ACRB|
 |3|Singh et al.,2015|Cross-sectional, multicenter|44,928 (6 to 7 year age group); 48,088 (13 to 14 year age group)|Traffic pollution maternal and paternal smoking|Asthma|Traffic pollution and maternal and paternal smoking is associated with increased prevalence of asthma|
-
-<figcaption style ="text-align: center"> Table-2: List of studies on air pollution that have been carried out in an Indian population. </figcaption>
+<br>
+<figcaption style ="text-align: center"> Table-3: List of studies on air pollution that have been carried out in an Indian population. </figcaption>
 <br>
 
 

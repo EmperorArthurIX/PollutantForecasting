@@ -20,4 +20,16 @@ Issued : *November 2020*
 Authors: *Danny Hartanto Djarum, Zainal Ahmad, Jie Zhang* <br>
 Issued: *29 May 2023*
 
+6.  Effects of agriculture crop residue burning on children and young on PFTs in North West India. Sci. Total Environ. [\[Link\]](https://www.sciencedirect.com/science/article/abs/pii/S0048969710006455?via%3Dihub) <br>
+Authors:  *Awasthi, A.; Singh, N.; Mittal, S.; Gupta, P.K.; Ravinder Agarwal* <br>
+Issued: *16 July 2010*
+
+7.  Prevalence and severity of asthma among Indian school children aged between 6 and 14 years: associations with parental smoking and traffic pollution[\[Link\]](https://www.tandfonline.com/doi/full/10.3109/02770903.2015.1087558) <br>
+Authors:  *Sheetu Singh, Bharat Bhushan Sharma, S.K.Sharma, Mohammed Sabir, Virendra Singh* <br>
+Issued: *30 October 2015*
+
+8. Effects of biomass combustion smoke on hematological and antioxidant profile among children (8–13 years) in India [\[Link\]](https://www.tandfonline.com/doi/full/10.1080/08958370802448961) <br>
+Authors:  *Pratap Kumar Padhy, Bijaya Kumar Padhi* <br>
+Issued: *07 april 2009*
+
 ---
