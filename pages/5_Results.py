@@ -16,34 +16,27 @@ st.title("Results")
 with open("./static/textContent/Results.md") as f:
     st.markdown(f.read(), unsafe_allow_html=True)
 
-# User Input Section
-
-
-already_scaled = None
-
 # Collecting Data
-with open("./Jupyter Files/grid_et_cv2_rmse.pkl", "rb") as f:
+with open("./Jupyter Files/et_pm25_gscv_ccp_md_mss_msl_ne.pkl", "rb") as f:
     model = pickle.load(f)
 data = pd.read_csv("./Jupyter Files/Dataset/test_borivali.csv")
-# data["From Date"] = pd.to_datetime(data["From Date"], format="%d-%m-%Y %H:%M")
-# data.set_index("From Date", inplace=True, drop=True)
+
 try:
     data.drop("From Date", axis=1, inplace=True)
+    data.drop("BP", axis=1, inplace=True)
+    data.dropna(inplace=True)
 except:
     pass
 
-with open("./Jupyter Files/scaler.bin", "rb") as f:
-    scaler = joblib.load(f)
-    already_scaled = False
 og_data = pd.read_csv("./Jupyter Files/Dataset/airport_air_csv.csv")
-# og_data["From Date"] = pd.to_datetime(og_data["From Date"], format="%d-%m-%Y %H:%M")
-# og_data.set_index("From Date", inplace=True, drop=True)
+
 try:
     og_data.drop("From Date", axis=1, inplace=True)
+    og_data.drop("BP", axis=1, inplace=True)
+    og_data.dropna(inplace=True)
 except:
     pass
-# og_data.drop("PM2.5", axis=1, inplace=True)
-data.interpolate(method='linear', inplace=True)
+
 
 ##################
 with st.container():
@@ -73,7 +66,9 @@ with st.container():
     st.subheader("Grid Search Overview")
     from PIL import Image
     st.image(Image.open("./static/media/grid ET.jpg"),
-             caption="Parameters of Grid Search with 2-Fold Cross Validation for Hyperparameter Tuning in ET Regressor")
+             caption="Parameters of Grid Search with 2-Fold Cross Validation for Hyperparameter Tuning in Preliminary ET Regressor")
+    st.image(Image.open("./static/media/newgridet.jpg"),
+                  caption="Parameters of Grid Search with 10-Fold Repeated Cross Validation for Hyperparameter Tuning in the Final ET Regressor")
 
 # USER INTERACTION SECTION
 with st.container():
@@ -85,21 +80,21 @@ with st.container():
     st.write("#### Data after user input")
     st.dataframe(edit_data)
 
-    if already_scaled == False:
-        # scaler.fit(og_data[og_data.columns[:-1]])
-        scaled = pd.DataFrame(scaler.fit_transform(
-            edit_data[edit_data.columns[1:-1]]))
-
+    scaled = edit_data[edit_data.columns[1:-1]]
     cols = st.columns(2)
     preds = model.predict(scaled)
-    final_df = pd.DataFrame(
-        {"Original PM10": edit_data[edit_data.columns[-1]].values, "Predictions": preds})
-    cols[0].write("Side-by-side comparison")
-    cols[0].dataframe(final_df, width=400)
-    cols[1].write("Differences in Predictions and Original")
-    cols[1].write(edit_data[edit_data.columns[-1]]-preds)
+
+    with st.container():
+        final_df = pd.DataFrame()
+        final_df["Original PM10"] = edit_data[edit_data.columns[-1]].values
+        final_df["Predictions"] = preds
+        final_df["Error"] =  edit_data[edit_data.columns[-1]]-preds
+        final_df["Absolute Error"] = abs(final_df["Error"])
+        final_df["% Error (over range 0 to 400)"] = final_df["Absolute Error"]/4
+        st.dataframe(final_df)
 
     st.write("Graph Visualization")
-    st.line_chart(final_df, width=100, height=400)
+    st.line_chart(final_df, y=["Original PM10", "Predictions"], width=100, height=400)
+    st.bar_chart(edit_data[edit_data.columns[-1]]-preds)
 
 #################
