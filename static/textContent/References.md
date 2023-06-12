@@ -32,4 +32,18 @@ Issued: *30 October 2015*
 Authors:  *Pratap Kumar Padhy, Bijaya Kumar Padhi* <br>
 Issued: *07 april 2009*
 
+9. An empirical study on hyperparameter tuning of decision trees [\[Link\]](https://www.researchgate.net/publication/329465048_An_empirical_study_on_hyperparameter_tuning_of_decision_trees) <br>
+Authors:  * R. Mantovani, T. Horvath, R. Cerri, S. Barbon Junior, J. Vanschoren and A. de Carvalho* <br>
+Issued: *December 2018*
+
+10. A machine learning-based model to estimate PM2.5 concentration levels in Delhi's atmosphere [\[Link\]](https://www.sciencedirect.com/science/article/pii/S2405844020324610) <br>
+Authors:  *S. Kumar, S. Mishra and S. K. Singh* <br>
+Issued: *November 2020*
+
+11. Reduced Bayesian Optimized Stacked Regressor (RBOSR): A highly efficient stacked approach for improved air pollution prediction [\[Link\]](https://www.sciencedirect.com/science/article/abs/pii/S1568494623004842) <br>
+Authors:  *Danny Hartanto Djarum, Zainal Ahmad, Jie Zhang* <br>
+Issued: *29th May 2023*
+
+12. Central Pollution Control Board of India, \"Central Control Room for Air Quality Management\", Central 
+Pollution Control Board of India. [\[Link\]](https://airquality.cpcb.gov.in/ccr/#/caaqm-dashboard-all/) <br>
 ---

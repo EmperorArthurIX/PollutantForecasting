@@ -121,3 +121,29 @@ Air pollution has become a growing concern in recent years in India and globally
 serious health effects. Similar mechanisms are involved in maternal air-pollution-exposure-induced health effects on offspring that are a result of increased oxidative stress resulting in damage to proteins and biomolecules and causing placental inflammation, induction of ER stress–autophagy, and mitochondrial dysfunction. Therapeutic strategies targeting air-pollution-induced oxidative stress and related signaling should be considered to enhance endogenous antioxidant defense mechanisms in the cell. On the other hand, use of novel autophagy modulators that can also block ER stress could be of great value for future research into preventing the development of pollutant-induced airway disease. Collectively, air-pollution-induced adverse health outcomes can be prevented by adopting a comprehensive global approach that works locally to eliminate or reduce the burden of PM both indoors and outdoors.
 
 ---
+
+#### 5. An empirical study on hyperparameter tuning of decision trees
+
+This paper states that the ideal min_samples_leaf values tend to be between 1 to 20 for the CART algorithm. This paper also indicates that max_depth, min_samples_split and min_samples_leaf are the most responsible for the performance of the final trees from their relative importance analysis.
+
+##### 5.1 Hyperparameter - min_samples_leaf
+
+This is used to control over-fitting by defining that each leaf has more than one element. Thus, ensuring that the tree cannot overfit the training dataset by creating a bunch of small branches exclusively for one sample each. In reality, what this is actually doing is simply just telling the tree that each leaf doesn’t have to have an impurity of 0.
+
+##### 5.2 Hyperparameter - min_samples_split
+
+This is used to control over-fitting. Higher values prevent a model from learning relations which might be highly specific to the particular sample selected for a tree.
+
+---
+
+#### 6. Reduced Bayesian Optimized Stacked Regressor (RBOSR): A highly efficient stacked approach for improved air pollution prediction.
+
+In this study, a new approach called Reduced Bayesian Optimized Stacked Regressor (RBOSR) that optimizes both the performance and efficiency if the PM2.5 stacked model has been proposed. RBOSR incorporates Bayesian optimization for hyperparameter tuning, ensemble-based feature selection, dimensionality reduction via single-link hierarchical clustering, and recursive base estimator eliminations.
+
+---
+
+#### 7. A machine learning-based model to estimate PM2.5 concentration levels in Delhi's atmosphere
+
+The proposed work is an attempt to accurately predict the PM2.5 levels and to increase the prediction accuracy, especially in Delhi's atmosphere. A model, for this, is proposed based on Extra Trees Regressor boosted with AdaBoost. Extra Trees is a tree-based ensemble technique, which strongly randomizes both the cut point choice and the attributes involved in it while splitting a tree node. It is used for supervised classification but can also be extended for regression problems. AdaBoost, stands for Adaptive Boosting, is a boosting algorithm used in conjunction with the learning algorithms to complement on its performances. The goal of this study is to improve the results obtained in the above-mentioned paper.
+
+---
