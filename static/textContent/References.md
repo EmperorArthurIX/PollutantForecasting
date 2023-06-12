@@ -33,7 +33,7 @@ Authors:  *Pratap Kumar Padhy, Bijaya Kumar Padhi* <br>
 Issued: *07 april 2009*
 
 9. An empirical study on hyperparameter tuning of decision trees [\[Link\]](https://www.researchgate.net/publication/329465048_An_empirical_study_on_hyperparameter_tuning_of_decision_trees) <br>
-Authors:  * R. Mantovani, T. Horvath, R. Cerri, S. Barbon Junior, J. Vanschoren and A. de Carvalho* <br>
+Authors:  *R. Mantovani, T. Horvath, R. Cerri, S. Barbon Junior, J. Vanschoren and A. de Carvalho* <br>
 Issued: *December 2018*
 
 10. A machine learning-based model to estimate PM2.5 concentration levels in Delhi's atmosphere [\[Link\]](https://www.sciencedirect.com/science/article/pii/S2405844020324610) <br>
